@@ -20,5 +20,5 @@ File names in this Git:
 - Prep_CSV.xlsx: Excel chart that produces Prep_CSV.csv
 - anova_ML_Training_class.csv: input file that will feed the Python ML models in Jupyter notebooks
 
-#Steps to reproduce this paper:
+## Steps to reproduce this paper:
 1. Install R language and R Studio (R language version used in this paper: 4.2.1)
