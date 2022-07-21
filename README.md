@@ -22,4 +22,6 @@ File names in this Git:
 
 ## Steps to reproduce this paper:
 1. Install R language and R Studio (R language version used in this paper: 4.2.1)
-2. Execute <code>install.packages("OlinkAnalyze")</code>
+2. Execute <code>install.packages("OlinkAnalyze")</code> to install OlinkAnalyze R packages
+3. Copy Prep_CSV.csv into OlinkAnalyze package install location. In my case it is <code>/Library/Frameworks/R.framework/Versions/4.2/Resources/library/OlinkAnalyze/extdata</code>
+4. Open and run Olink_Population_Generator.R within R Studio (install any missing package, when prompted by R Studio)
