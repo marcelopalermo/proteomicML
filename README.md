@@ -22,3 +22,4 @@ File names in this Git:
 
 ## Steps to reproduce this paper:
 1. Install R language and R Studio (R language version used in this paper: 4.2.1)
+2. Execute <code>install.packages("OlinkAnalyze")</code>
