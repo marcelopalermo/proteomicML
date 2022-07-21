@@ -24,4 +24,9 @@ File names in this Git:
 1. Install R language and R Studio (R language version used in this paper: 4.2.1)
 2. Execute <code>install.packages("OlinkAnalyze")</code> to install OlinkAnalyze R packages
 3. Copy Prep_CSV.csv into OlinkAnalyze package install location. In my case it is <code>/Library/Frameworks/R.framework/Versions/4.2/Resources/library/OlinkAnalyze/extdata</code>
-4. Open and run Olink_Population_Generator.R within R Studio (install any missing package, when prompted by R Studio)
+4. Open and run the entire code from Olink_Population_Generator.R within R Studio (install any missing package, if prompted by R Studio)
+5. Step 4 will produce the anova_ML_Training_class.csv
+6. Install Anaconda on a Python 3.9 environment and start Jupyter Notebook
+7. Create a directory and copy the .ipynb into it
+8. Copy anova_ML_Training_class.csv into same diretory where your .ipynb files are located
+9. Run each .ipynb to have a complete analysis of each ML model, like accuracy, logarithmic loss, confusion matrix and a ranking of the best ML classifiers for age, BMI and gender.
