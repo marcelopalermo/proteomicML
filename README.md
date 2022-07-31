@@ -25,7 +25,7 @@ File names in this Git:
 2. Execute <code>install.packages("OlinkAnalyze")</code> to install OlinkAnalyze R packages
 3. Copy Prep_CSV.csv into the OlinkAnalyze package install location. In my case it is <code>/Library/Frameworks/R.framework/Versions/4.2/Resources/library/OlinkAnalyze/extdata</code>
 4. Open and run the entire code from Olink_Population_Generator.R within R Studio (install any missing package, if prompted by R Studio)
-5. Step 4 will produce the anova_ML_Training_class.csv
+5. Step 4 will produce the anova_ML_Training_class.csv. Step 4 will also produce UMAP graphs comparing actual and fictional patients for age category, to ensure fictional data does not disrupt the proteomic data to feed the ML classifiers
 6. Install Anaconda on a Python 3.9 environment and start Jupyter Notebook
 7. Create a directory and copy the .ipynb into it
 8. Copy anova_ML_Training_class.csv into the same directory where your .ipynb files are located
